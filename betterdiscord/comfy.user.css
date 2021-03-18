@@ -6,7 +6,7 @@
 @version      1.0.0
 ==/UserStyle== */
 
-@import "https://pukimaa.github.io/Comfy/betterdiscord/main.css";
+@import "https://raw.githubusercontent.com/Pukimaa/Comfy/master/betterdiscord/main.css";
 
 @-moz-document domain("discord.com") {
     
