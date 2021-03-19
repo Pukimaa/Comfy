@@ -1,5 +1,5 @@
 /**
-* @name Comfy
+* @name Comfy (Custom Font)
 * @author Pukima#0001 (Originally: Nyria#3863)
 * @description Stay comfy while talking to your friends.
 * @invite 9YDAm3qTae
@@ -7,9 +7,10 @@
 */
 
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url("https://nyri4.github.io/Comfy/betterdiscord/main.css");
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
 
+/*Custom Font*/
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: 'Balsamiq Sans', cursive;
 }
@@ -120,9 +121,23 @@
     --text-normal: #8e9297;
 }
 
+/*can be removed*/
 
-/*Custom and optional Settings (can be removed)*/
-/*USeRBackgrounDs*/
+/*Status Line under Profile Popout bottom left corner*/
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > .mask-1l8v16 > rect {
+    border-radius: 0;
+    x: 0; y: 35; rx: 2 !important;
+    width: 32.5px; height: 2.5px;
+    mask: none;
+    pointer-events: none;
+} 
+.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > .mask-1l8v16 > svg > rect {
+    border-radius: 0;
+    x: -14.5; y: 18; rx: 2 !important;
+    width: 32px; height: 3px;
+    mask: none;
+    pointer-events: none;
+}
 
 /*Pukima#0001 USRBG*/
 [user_by_bdfdb="751092600890458203"],
@@ -133,13 +148,11 @@
 /*Cyden#6577 USRBG*/
 [user_by_bdfdb="501121253097209857"],
 [data-user-id="501121253097209857"] {
-    --user-background: url('https://media3.giphy.com/media/7E6kuuyguIJ3YdzdGq/giphy.gif?cid=ecf05e47cigh5ddn914s8pqriak4yqy852wqyassyra210bo&rid=giphy.gif');
+    --user-background: url('https://i.imgur.com/aAH52oj.gif');
 }
 
 /*Custom Icons*/
 
-/*Pukima Server general Icon*/
-[href="/channels/782245108724400128/782250743293018133"] > div > svg > path {
-   d: path("M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z");
-    transform: scale(1.1);
-}
+/*Pukima Server*/
+[href="/channels/782245108724400128/782250743293018133"] > div > svg > path {d: path("M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z");transform: scale(1.1);}
+[href="/channels/782245108724400128/782245110514843741"] > div > svg > path { d: path("M8 17v-6h4v6h5V9h3L10 0 0 9h3v8z"); transform: scale(1.2);}
