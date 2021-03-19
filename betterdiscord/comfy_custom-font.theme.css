@@ -7,7 +7,12 @@
 */
 
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: 'Balsamiq Sans', cursive;
+}
 
 /* If you don't like one of those variables until "Other settings" you can delete them or you can also
     try to change those if you have some css knowledge */
