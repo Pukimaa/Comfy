@@ -15,7 +15,7 @@ git clone https://github.com/NYRI4/Comfy-git-clone
 
 ### BetterDiscord
 
-1. Paste either [comfy.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/comfy.theme.css) is without the font: [Balsamiq Sans]/https://fonts.google.com/specimen/Balsamiq+Sans?preview.text_type=custom) or [custom-font.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/custom-font.theme.css) into your Theme Folder ([comfy.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/comfy.theme.css) is without the font: [Balsamiq Sans](https://fonts.google.com/specimen/Balsamiq+Sans?preview.text_type=custom) and [custom-font.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/custom-font.theme.css) is with the font: [Balsamiq Sans](https://fonts.google.com/specimen/Balsamiq+Sans?preview.text_type=custom))
+1. Paste either [comfy.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/comfy.theme.css) or [custom-font.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/custom-font.theme.css) into your Theme Folder ([comfy.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/comfy.theme.css) is without the font: [Balsamiq Sans](https://fonts.google.com/specimen/Balsamiq+Sans?preview.text_type=custom) and [custom-font.theme.css](https://github.com/Pukimaa/Comfy/blob/master/betterdiscord/custom-font.theme.css) is with the font: [Balsamiq Sans](https://fonts.google.com/specimen/Balsamiq+Sans?preview.text_type=custom))
 
 2. Save the file into your theme folder
 
