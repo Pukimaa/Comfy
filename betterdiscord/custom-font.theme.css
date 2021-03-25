@@ -139,6 +139,12 @@
     pointer-events: none;
 }
 
+/*Custom Font better BOT Tags (more centered)*/
+.px-10SIf7 .botText-1526X_ {
+    position: relative;
+    top: 1px;
+}
+
 /*Pukima#0001 USRBG*/
 [user_by_bdfdb="751092600890458203"],
 [data-user-id="751092600890458203"] {
