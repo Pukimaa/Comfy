@@ -3,7 +3,7 @@
 ---
 
 # Comfy (custom fork by Pukima)
-![Preview](https://i.imgur.com/AwlDbJ2.png)
+![Preview](https://i.imgur.com/55i49Ch.png)
 
 ## 📥 Installation
 
