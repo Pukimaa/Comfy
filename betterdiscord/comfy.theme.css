@@ -3,7 +3,7 @@
 * @author Pukima#0001 (Originally: Nyria#3863)
 * @description Stay comfy while talking to your friends.
 * @invite 9YDAm3qTae
-* @version 1.2.2
+* @version 1.3
 */
 
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
@@ -24,13 +24,18 @@
 :root {
 /* -- Others settings -- */
 
+/*For Backgroundimage*/
+--background:url('https://i.imgur.com/UPHvd7e.jpg');
+    --chat-transparency:0.75;
+    --sides-transparency:0.85;
+    --sides-blur:5px;
+
 /* User button spacing */
 --user-buttons-spacing: 8px;
 
 /* Avatar position */
---avatar-left: 327.5px;
---avatar-bottom: 26.5px;
-
+--avatar-left: 15px;
+--avatar-bottom: 135px;
 
 /* Avatar roundess */
 --avatar-radius: 5px;  
@@ -121,16 +126,13 @@
     --text-normal: #8e9297;
 }
 
-/*Status Line under Profile Popout bottom left corner*/
-.avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > .mask-1l8v16 > rect {
-    border-radius: 0;
-    x: 0; y: 35; rx: 2 !important;
-    width: 32.5px; height: 2.5px;
-    mask: none;
-    pointer-events: none;
-} 
 
-/*Online Status for own profile bottom left corner*/
+/*Extending bottom bar on the Serverlist*/
+.panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
+    padding: 95px 0 10px 0;
+}
+
+/*Status Line under Profile Popout bottom left corner*/
 .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > .mask-1l8v16 > rect {
     border-radius: 0;
     x: 0; y: 35; rx: 2 !important;
@@ -145,6 +147,31 @@
     mask: none;
     pointer-events: none;
 }
+
+
+/*Backgroundimage*/
+.container-3w7J-x [aria-label*="Pukima Community"] .header-2V-4Sw {
+    box-shadow: none;
+}
+.container-3w7J-x[aria-label*="Pukima Community"] .positionedContainer-3LNR6L {
+    margin-top: -48px;
+    width: 100%;
+    height: 300px;
+    box-shadow: inset 0 0 0 135px rgba(0,0,0,0.35);
+    position: relative;
+    background-image: url("https://i.imgur.com/oXrPAM5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-2fGMdU:before {display:none}
+.bg-h5JY_x, .app-2rEoOp, .chat-3bRxxu, .theme-dark .container-1D34oG, .scroller-1JbKMe, .sidebar-2K8pFh, .members-1998pB>div {background:transparent}
+.content-98HsJk .sidebar-2K8pFh {border-radius:0}
+.appMount-3lHmkl {background:var(--background) center/cover no-repeat}
+.chatContent-a9vAAp, .peopleColumn-29fq28 {background:rgba(35,40,61,var(--chat-transparency))}
+.withFrame-haYltI {background:var(--background-tertiary);padding-top:4px;margin-top:0}
+.privateChannels-1nO12o, .nowPlayingColumn-2sl4cE, .container-3w7J-x, .members-1998pB {background:rgba(30,34,51,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /*Message Background on hover*/
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, .form-2fGMdU .wrapper-39oAo3:after {
@@ -201,7 +228,7 @@
 [href="/channels/782245108724400128/782245110514843741"] > div > svg > path { d: path("M8 17v-6h4v6h5V9h3L10 0 0 9h3v8z"); transform: scale(1.2);}
 [href="/channels/782245108724400128/823097008302194689"] > div > svg > path, [href="/channels/811203761619337259/811203762147426347"] > div > svg > path { d: path("M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"); transform: scale(1.5);}
 [href="/channels/782245108724400128/782258620309438475"] > div > svg > path, [href="/channels/811203761619337259/782258620309438475"] > div > svg > path { d: path("M18 9V14C18 15.657 19.344 17 21 17V18H3V17C4.656 17 6 15.657 6 14V9C6 5.686 8.686 3 12 3C15.314 3 18 5.686 18 9ZM11.9999 21C10.5239 21 9.24793 20.19 8.55493 19H15.4449C14.7519 20.19 13.4759 21 11.9999 21Z"); transform: scale(1.1);}
-[href="/channels/782245108724400128/811231307371249694"] > div > svg > path {d: path("M 5 1 C 2.791 1 1 2.791 1 5 L 1 31 C 1 33.209 2.791 35 5 35 L 31 35 C 33.209 35 35 33.209 35 31 L 35 5 C 35 2.791 33.209 1 31 1 L 5 1 z M 25 7 L 27 7 C 28.104 7 29 7.896 29 9 L 29 33 L 23 33 L 23 9 C 23 7.896 23.896 7 25 7 z M 9 14 L 11 14 C 12.104 14 13 14.896 13 16 L 13 33 L 7 33 L 7 16 C 7 14.896 7.896 14 9 14 z M 17 21 L 19 21 C 20.104 21 21 21.896 21 23 L 21 33 L 15 33 L 15 23 C 15 21.896 15.896 21 17 21 z");transform: scale(0.7);
+[href="/channels/782245108724400128/811231307371249694"] > div > svg > path {d: path("M 5 1 C 2.791 1 1 2.791 1 5 L 1 31 C 1 33.209 2.791 35 5 35 L 31 35 C 33.209 35 35 33.209 35 31 L 35 5 C 35 2.791 33.209 1 31 1 L 5 1 z M 25 7 L 27 7 C 28.104 7 29 7.896 29 9 L 29 33 L 23 33 L 23 9 C 23 7.896 23.896 7 25 7 z M 9 14 L 11 14 C 12.104 14 13 14.896 13 16 L 13 33 L 7 33 L 7 16 C 7 14.896 7.896 14 9 14 z M 17 21 L 19 21 C 20.104 21 21 21.896 21 23 L 21 33 L 15 33 L 15 23 C 15 21.896 15.896 21 17 21 z");transform: scale(0.7);}
 [href="/channels/782245108724400128/804652197958516756"] > div > svg > path {d: path("M28.81 23.209c0-7.672-14.144-7.171-14.144-11.803 0-2.242 2.145-3.337 4.633-3.337 4.184 0 4.929 2.688 6.824 2.688 1.342 0 1.988-.845 1.988-1.792 0-2.201-3.337-3.867-6.537-4.444V2.397c0-1.325-1.072-2.4-2.398-2.4-1.327 0-2.4 1.075-2.4 2.4v2.199c-3.489.794-6.49 3.214-6.49 7.159 0 7.369 14.142 7.071 14.142 12.247 0 1.793-1.941 3.586-5.129 3.586-4.781 0-6.374-3.236-8.316-3.236-.946 0-1.792.796-1.792 1.996 0 1.906 3.195 4.2 7.588 4.841l-.003.015v2.397c0 1.326 1.075 2.401 2.401 2.401 1.325 0 2.399-1.075 2.399-2.401v-2.397c0-.028-.014-.05-.016-.075 3.953-.738 7.25-3.315 7.25-7.92z");transform: scale(0.6);}
 [href="/channels/782245108724400128/821700607885705266"] > div > svg > path {d: path("M34.347 16.893l-8.899-3.294-3.323-10.891c-.128-.42-.517-.708-.956-.708-.439 0-.828.288-.956.708l-3.322 10.891-8.9 3.294c-.393.146-.653.519-.653.938 0 .418.26.793.653.938l8.895 3.293 3.324 11.223c.126.424.516.715.959.715.442 0 .833-.291.959-.716l3.324-11.223 8.896-3.293c.391-.144.652-.518.652-.937 0-.418-.261-.792-.653-.938z");transform: scale(0.6);}
 [href="/channels/782245108724400128/799742718615355403"] > div > svg > path {d: path("M34.209.206L11.791 2.793C10.806 2.907 10 3.811 10 4.803v18.782C9.09 23.214 8.075 23 7 23c-3.865 0-7 2.685-7 6 0 3.314 3.135 6 7 6s7-2.686 7-6V10.539l18-2.077v13.124c-.91-.372-1.925-.586-3-.586-3.865 0-7 2.685-7 6 0 3.314 3.135 6 7 6s7-2.686 7-6V1.803c0-.992-.806-1.71-1.791-1.597z");transform: scale(0.6);}
