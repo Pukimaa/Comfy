@@ -142,6 +142,7 @@
     pointer-events: none;
 }
 
+/*Message Background on hover*/
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, .form-2fGMdU .wrapper-39oAo3:after {
   background: var(--bonfire) center no-repeat;
   background-size: 90%;

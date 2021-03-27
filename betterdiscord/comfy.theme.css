@@ -27,6 +27,11 @@
 /* User button spacing */
 --user-buttons-spacing: 8px;
 
+/* Avatar position */
+--avatar-left: 327.5px;
+--avatar-bottom: 26.5px;
+
+
 /* Avatar roundess */
 --avatar-radius: 5px;  
 
@@ -89,6 +94,7 @@
     --background-mobile-secondary: #1e2233;
     --channeltextarea-background: #191f2e;
     --background-accent: #6E85D3;
+    --background-message-hover: transparent;
     --background-modifier-hover: #1c2030;
     --background-modifier-active: #1a1e2e;
     --background-modifier-selected: #191f2e;
@@ -115,8 +121,6 @@
     --text-normal: #8e9297;
 }
 
-/*can be removed*/
-
 /*Status Line under Profile Popout bottom left corner*/
 .avatarWrapper-2yR4wp[aria-expanded="true"] > .avatar-SmRMf2 > .mask-1l8v16 > rect {
     border-radius: 0;
@@ -140,6 +144,12 @@
     width: 32px; height: 3px;
     mask: none;
     pointer-events: none;
+}
+
+/*Message Background on hover*/
+.channelTextArea-rNsIhG .scrollableContainer-2NUZem:after, .form-2fGMdU .wrapper-39oAo3:after {
+  background: var(--bonfire) center no-repeat;
+  background-size: 90%;
 }
 
 /*Pukima#0001 USRBG*/
