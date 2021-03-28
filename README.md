@@ -4,6 +4,7 @@
 
 # Comfy (custom fork by Pukima)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 ![Preview](https://i.imgur.com/55i49Ch.png)
 
 ## 📥 Installation
