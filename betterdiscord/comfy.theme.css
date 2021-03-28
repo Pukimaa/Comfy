@@ -3,7 +3,7 @@
 * @author Pukima#0001 (Originally: Nyria#3863)
 * @description Stay comfy while talking to your friends.
 * @invite 9YDAm3qTae
-* @version 1.3.1
+* @version 1.3.2
 */
 
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
@@ -179,7 +179,7 @@
   background-size: 90%;
 }
 
-/*Avatar rotate*/
+/*Avatar highlight*/
 .container-1taM1r {
   background: transparent !important;
 }
@@ -190,8 +190,6 @@
 .avatar-SmRMf2:hover {
     filter: drop-shadow(0 0 8px);
     color: #353535;
-    transform: rotate(360deg);
-    transition: width .3s ease, height .3s ease, transform .7s ease;
 }
 
 /*Pukima#0001 USRBG*/
@@ -222,12 +220,6 @@
 [user_by_bdfdb="237585712998907914"],
 [data-user-id="237585712998907914"] {
     --user-background: url('https://i.imgur.com/u8uCk8L.jpeg');
-}
-
-/*little_dino🥺🦖#9641*/
-[user_by_bdfdb="804371946590306385"],
-[data-user-id="804371946590306385"] {
-    --user-background: url('https://i.imgur.com/1wVnsac.gif');
 }
 
 /*Leonie#8286*/
