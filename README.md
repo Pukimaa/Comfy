@@ -22,7 +22,7 @@ git clone https://github.com/NYRI4/Comfy-git-clone
 
 ## 🖌️ Customization
 Go into your theme folder > Comfy > support
-- For BetterDiscord : `comfy.theme.css`
+- For BetterDiscord : `comfy.theme.css` or `custom-font.theme.css` (whatever you have)
 - For Powercord/Vizality : `_custom.css`
 
 ## Credits
