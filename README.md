@@ -3,6 +3,7 @@
 ---
 
 # Comfy (custom fork by Pukima)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ![Preview](https://i.imgur.com/55i49Ch.png)
 
 ## 📥 Installation
@@ -26,4 +27,4 @@ Go into your theme folder > Comfy > support
 
 ## Credits
 
-Thanks a lot to Snapperito, Harley, Tropical and others peeps that I forgot for the help !
+Thanks a lot to NYRI4 (original creator), Snapperito, Harley, Tropical and others peeps that I forgot for the help!
