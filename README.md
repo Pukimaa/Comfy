@@ -5,7 +5,7 @@
 # Comfy (custom fork by Pukima)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-![Preview](https://i.imgur.com/55i49Ch.png)
+![Preview](https://github.com/Pukimaa/Comfy/blob/master/assets/preview.png)
 
 ## Quick Note
 This fork is focusing just on Betterdiscord and also just on the theme file and not `main.css` or `comfy.user.css`. If you creating a Fork of this and want to also customize the `main.css` or the `comfy.user.css` please copy and paste it from [NYRI4's Repo](https://github.com/NYRI4/Comfy). If you are you using Powercord or Vizality please install it like mentioned down below from NYRI4's [Powercord & Vizality Repo of Comfy](https://github.com/NYRI4/Comfy-git-clone). Also consider that the Powercord & Vizality version is not custom and always up to date to the original creation.
