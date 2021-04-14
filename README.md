@@ -9,7 +9,7 @@
 
 ## 📥 Installation
 
-### 🇻 Vizality
+### Vizality
 
 📥 Install : ```cd vizality\addons\themes && git clone https://github.com/Pukimaa/Comfy-git-clone```
 
@@ -19,7 +19,7 @@
 
 🔄 Update : ```cd powercord\src\powercord\themes\Comfy-git-clone && git pull```
 
-### 🇧 BetterDiscord
+### BetterDiscord
 
 * Open [this Site](https://pukima.site/Comfy/Comfy.theme.css)
 * Press `ctrl`+`s` and save it to
