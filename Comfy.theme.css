@@ -263,7 +263,7 @@ html.theme-light {
 .tooltip-2QfLtc {
     background-color: var(--tooltip-color) !important;
     backdrop-filter: var(--tooltip-blur);
-    text-shadow: #000 0 0 5px;
+    text-shadow: #000 0 0 2.5px;
  }
  .tooltipPointer-3ZfirK {
     border-top-color: var(--tooltip-color) !important;
@@ -328,7 +328,7 @@ html.theme-light {
   color: rgb(255, 53, 53);
   margin-top: 3px;
   margin-left: 1.5px;
-  background: url('https://svgur.com/i/W9K.svg') no-repeat;
+  background: url('https://svgshare.com/i/WEo.svg') no-repeat;
   background-size: 23px;
 }
 
