@@ -263,7 +263,6 @@ html.theme-light {
 .tooltip-2QfLtc {
     background-color: var(--tooltip-color) !important;
     backdrop-filter: var(--tooltip-blur);
-    text-shadow: #000 0 0 2.5px;
  }
  .tooltipPointer-3ZfirK {
     border-top-color: var(--tooltip-color) !important;
@@ -377,6 +376,18 @@ html.theme-light {
 [user_by_bdfdb="635125063896793098"],
 [data-user-id="635125063896793098"] {
     --user-background: url('https://i.imgur.com/Ef3qkd6.png');
+}
+
+/*It'sJustJosh#1156*/
+[user_by_bdfdb="362628885361197056"]:not(img),
+[data-user-id="362628885361197056"]:not(img) {
+    --user-background: url('https://i.imgur.com/0U5e35Dh.png');
+}
+
+/*MissShuwa ♡#0001*/
+[user_by_bdfdb="814212887337107486"],
+[data-user-id="814212887337107486"] {
+    --user-background: url('https://i.imgur.com/WZyoasF.gif');
 }
 
 /*Pukima Server*/
