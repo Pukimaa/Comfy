@@ -3,7 +3,7 @@
 @description  Stay comfy while talking to your friends.
 @author       Pukima#0001 & Nyria#3863
 @namespace    github.com/Pukimaa/BetterDiscordAddons/Themes/Comfy
-@version      1.3.3
+@version      2.0
 ==/UserStyle== */
 
 @import "https://pukimaa.github.io/Comfy/main.css";
@@ -176,6 +176,13 @@
     --header-secondary: #b1b5b9;
     --text-normal: #8e9297;
 }
+
+/*Move Voice Users To The Top*/
+/*Concept by Cryptogenic, Code shrunk by David*/
+.container-1giJp5 {display:flex;flex-direction:column;}
+.container-1giJp5 > .voiceUsers-YsH5Db {order:0;margin-bottom:8px;}
+.container-1giJp5 > .connection-3KRENF, .container-1giJp5 > .actionButtons-14eAc_ {order:1;width:224px;}
+/*Move Voice Users To The Top*/
 
 .customEmojiPlaceholder-37iZ_j { background-image: url("https://discord.com/assets/66f6c781fe86c346fbaf3390618668fc.svg");}
 .navList-2UtuhC > #sticker-picker-tab  > .navButton-2gQCx-:after { background-image:url("https://images-ext-2.discordapp.net/external/HbBmA4gs0tavZMLCDG6n55xeLkI2HTlpg7Qt3_YzTKs/%3Fraw%3Dtrue/https/github.com/NYRI4/Comfy/blob/master/assets/stickers.png");}
