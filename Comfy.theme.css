@@ -10,7 +10,7 @@
 /* Imports actual Theme <3 */
 @import url("https://pukimaa.github.io/Comfy/Comfy.theme.css");
 
-    
+:root {
 /* User button spacing */
 --user-buttons-spacing: 8px;
 
