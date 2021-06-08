@@ -11,18 +11,6 @@
 
 @-moz-document domain("discord.com") {
     
-/**
-* @name Comfy
-* @author Pukima#0001
-* @authorId 751092600890458203
-* @description Stay comfy while talking to your friends.
-* @invite 9YDAm3qTae
-* @version 2.0
-*/
-
-/* Imports actual Theme <3 */
-@import url("https://pukimaa.github.io/Comfy/Comfy.theme.css");
-
 :root {    
 /* User button spacing */
 --user-buttons-spacing: 8px;
@@ -120,7 +108,7 @@
 .privateChannels-1nO12o, .nowPlayingColumn-2sl4cE, .container-3w7J-x, #app-mount .pageWrapper-1PgVDX, .sidebar-2K8pFh>.scrollerBase-289Jih, .members-1998pB {background:rgba(30,34,51,var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
 
 /* Pride User Popout BG if no Nitro or no USRBG */
-.userPopout-3XzG_A .banner-2QYc2d:not([class*="Premium"]) {
+.profileBanner-33-uE1 {
   background: url('https://i.imgur.com/D2fsL3a.png');
 }
     
