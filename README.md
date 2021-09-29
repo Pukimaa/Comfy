@@ -11,13 +11,13 @@ Imports Comfy by Nyria and adds some Snippets.
 
 ### Vizality
 
-📥 Install : ```cd vizality\addons\themes && git clone https://github.com/Pukimaa/Comfy-git-clone```
+📥 Install : ```cd vizality\addons\themes && git clone https://github.com/Pukimaa/Comfy```
 
 ### 🔌 Powercord
 
-📥 Install : ```cd powercord\src\powercord\themes && git clone https://github.com/Pukimaa/Comfy-git-clone```
+📥 Install : ```cd powercord\src\powercord\themes && git clone https://github.com/Pukimaa/Comfy```
 
-🔄 Update : ```cd powercord\src\powercord\themes\Comfy-git-clone && git pull```
+🔄 Update : ```cd powercord\src\powercord\themes\Comfy && git pull```
 
 ### BetterDiscord
 
